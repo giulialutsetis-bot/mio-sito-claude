@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>MIRAFIORE — Fiorire in Inverno | AW 2026/27</title>
+<meta name="description" content="MIRAFIORE — maison italiana di borse e calzature con motivi floreali. Collezione Autunno/Inverno 2026-2027: Fiorire in Inverno." />
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300&family=Jost:wght@200;300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<!-- ░░ PRELOADER ░░ -->
+<div class="loader" id="loader">
+  <div class="loader__inner">
+    <svg class="logo-svg loader__logo" viewBox="0 0 120 100" aria-hidden="true">
+      <path class="draw" d="M20 92 V30 C20 18 26 10 34 14 C42 18 46 28 60 58 C74 28 78 18 86 14 C94 10 100 18 100 30 V92" />
+      <path class="draw" d="M20 30 C10 26 8 14 14 8 C22 12 24 22 20 30 Z" />
+      <path class="draw" d="M100 30 C110 26 112 14 106 8 C98 12 96 22 100 30 Z" />
+      <circle class="draw" cx="60" cy="58" r="3.2" />
+    </svg>
+    <div class="loader__bar"><span id="loaderBar"></span></div>
+    <div class="loader__meta"><span>MIRAFIORE</span><span id="loaderPct">00</span></div>
+  </div>
+</div>
+
+<!-- ░░ CURSOR ░░ -->
+<div class="cursor" id="cursor"><span></span></div>
+
+<!-- ░░ NAV ░░ -->
+<header class="nav" id="nav">
+  <a href="#top" class="nav__brand">
+    <svg class="logo-svg" viewBox="0 0 120 100" aria-hidden="true">
+      <path d="M20 92 V30 C20 18 26 10 34 14 C42 18 46 28 60 58 C74 28 78 18 86 14 C94 10 100 18 100 30 V92" />
+      <path d="M20 30 C10 26 8 14 14 8 C22 12 24 22 20 30 Z" />
+      <path d="M100 30 C110 26 112 14 106 8 C98 12 96 22 100 30 Z" />
+    </svg>
+    <span class="nav__word">Mirafiore</span>
+  </a>
+  <nav class="nav__links">
+    <a href="#manifesto" data-cursor>Maison</a>
+    <a href="#collezione" data-cursor>Collezione</a>
+    <a href="#identita" data-cursor>Identità</a>
+    <a href="#spot" data-cursor>Spot</a>
+    <a href="#social" data-cursor>Campagna</a>
+  </nav>
+  <a href="#contatti" class="nav__cta" data-cursor>Lookbook AW26</a>
+</header>
+
+<main id="top" data-scroll-container>
+
+<!-- ░░ 01 · HERO ░░ -->
+<section class="hero" id="hero">
+  <div class="hero__media" data-parallax="0.28">
+    <img src="assets/img/hero.jpg" alt="Borsa Mirafiore in pelle bordeaux con motivo floreale" />
+    <div class="hero__veil"></div>
+  </div>
+  <div class="hero__content">
+    <p class="eyebrow line"><span>Maison italiana · Fondata a Reggio Emilia</span></p>
+    <h1 class="hero__title">
+      <span class="line"><span>Fiorire</span></span>
+      <span class="line"><span><em>in</em> Inverno</span></span>
+    </h1>
+    <div class="hero__row">
+      <p class="hero__sub line"><span>Borse e calzature con motivi floreali scolpiti nella pelle.<br/>Collezione Autunno / Inverno 2026 — 2027.</p></span>
+      <a href="#collezione" class="btn line" data-cursor><span>Scopri la collezione</span></a>
+    </div>
+  </div>
+  <div class="hero__foot">
+    <span class="scrollcue"><i></i> Scroll</span>
+    <span class="hero__coords">44°41'N 10°37'E — Italia</span>
+  </div>
+</section>
+
+<!-- ░░ MARQUEE ░░ -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee__track" id="marqueeTrack">
+    <span>Oxblood Bloom</span><i>✿</i><span>Pelle Fiorita</span><i>✿</i><span>Velluto Notturno</span><i>✿</i><span>Ricamo a Mano</span><i>✿</i><span>Oro Antico</span><i>✿</i>
+    <span>Oxblood Bloom</span><i>✿</i><span>Pelle Fiorita</span><i>✿</i><span>Velluto Notturno</span><i>✿</i><span>Ricamo a Mano</span><i>✿</i><span>Oro Antico</span><i>✿</i>
+  </div>
+</div>
+
+<!-- ░░ 02 · MANIFESTO ░░ -->
+<section class="manifesto" id="manifesto">
+  <span class="sec-num">01 — Manifesto</span>
+  <p class="manifesto__text" data-words>
+    Mirafiore nasce dall'idea che un fiore non muoia in autunno: cambi soltanto materia.
+    Diventa pelle, velluto, ottone brunito. Ogni borsa è un giardino d'inverno,
+    ogni scarpa un passo dentro la stagione fredda. Eleganza lenta, fatta a mano, destinata a durare.
+  </p>
+  <div class="manifesto__grid">
+    <div class="mf-card reveal"><span>01</span><h3>Atelier</h3><p>Pellami conciati al vegetale in Toscana, ricami eseguiti a telaio manuale. 42 ore per una borsa.</p></div>
+    <div class="mf-card reveal"><span>02</span><h3>Botanica</h3><p>Un erbario proprietario di 36 motivi floreali: rosa canina, felce, cardo, ortensia secca.</p></div>
+    <div class="mf-card reveal"><span>03</span><h3>Durata</h3><p>Garanzia a vita sulla struttura, servizio di restauro e ri-ricamo su ogni pezzo firmato.</p></div>
+  </div>
+</section>
+
+<!-- ░░ 03 · PALETTE ░░ -->
+<section class="palette" id="palette">
+  <div class="sec-head">
+    <span class="sec-num">02 — Palette</span>
+    <h2 class="sec-title reveal-up">Colori<br/><em>AW 2026/27</em></h2>
+    <p class="sec-lead reveal-up">La stagione abbandona i neutri freddi: dominano i rossi organici, i verdi profondi di sottobosco e i bruni golosi, illuminati da un solo metallo caldo.</p>
+  </div>
+  <div class="swatches" id="swatches">
+    <article class="sw" style="--c:#4E1B23"><h4>Oxblood Bloom</h4><span>#4E1B23</span><p>Colore firma. Pelle di vitello, velluto di seta.</p></article>
+    <article class="sw" style="--c:#26382E"><h4>Foglia Notturna</h4><span>#26382E</span><p>Camoscio strutturato, fodere in twill.</p></article>
+    <article class="sw" style="--c:#8A6A52"><h4>Mocha Velluto</h4><span>#8A6A52</span><p>Il neutro caldo della stagione.</p></article>
+    <article class="sw" style="--c:#D9C8B4"><h4>Bruma</h4><span>#D9C8B4</span><p>Contrasto luce, packaging interno.</p></article>
+    <article class="sw" style="--c:#B9975B"><h4>Oro Antico</h4><span>#B9975B</span><p>Hardware brunito, foil, ricami.</p></article>
+    <article class="sw" style="--c:#14100F"><h4>Nero Seta</h4><span>#14100F</span><p>Base tipografica e serale.</p></article>
+  </div>
+</section>
+
+<!-- ░░ 04 · COLLEZIONE — PINNED HORIZONTAL ░░ -->
+<section class="pin" id="collezione">
+  <div class="pin__sticky">
+    <div class="pin__head">
+      <span class="sec-num">03 — Collezione</span>
+      <h2>Giardino d'Inverno</h2>
+    </div>
+    <div class="pin__track" id="pinTrack">
+      <article class="prod">
+        <div class="prod__img"><img src="assets/img/bag-01.jpg" alt="Borsa Fiorenza verde bosco" /></div>
+        <div class="prod__meta"><h3>Fiorenza <em>Top Handle</em></h3><p>Camoscio Foglia Notturna, ricamo cardo tono su tono, ottone brunito.</p><span>€ 1.480</span></div>
+      </article>
+      <article class="prod">
+        <div class="prod__img"><img src="assets/img/bag-02.jpg" alt="Borsa Bruma a spalla mocha" /></div>
+        <div class="prod__meta"><h3>Bruma <em>Shoulder</em></h3><p>Pelle martellata Mocha Velluto, jacquard floreale, catena oro antico.</p><span>€ 1.150</span></div>
+      </article>
+      <article class="prod">
+        <div class="prod__img"><img src="assets/img/shoe-01.jpg" alt="Décolleté Rosalba in velluto bordeaux" /></div>
+        <div class="prod__meta"><h3>Rosalba <em>Pump 85</em></h3><p>Velluto di seta Oxblood, ricamo floreale in filo oro, tacco scultura.</p><span>€ 790</span></div>
+      </article>
+      <article class="prod">
+        <div class="prod__img"><img src="assets/img/shoe-02.jpg" alt="Stivale Notturna in pelle prugna" /></div>
+        <div class="prod__meta"><h3>Notturna <em>Boot</em></h3><p>Vitello spazzolato prugna, gambale con fiori impressi a caldo.</p><span>€ 1.240</span></div>
+      </article>
+      <article class="prod prod--cta">
+        <div class="prod__cta">
+          <h3>28 pezzi<br/>in collezione</h3>
+          <p>14 borse · 14 calzature · 6 motivi botanici esclusivi</p>
+          <a href="#contatti" class="btn btn--light" data-cursor><span>Richiedi il lookbook</span></a>
+        </div>
+      </article>
+    </div>
+    <div class="pin__bar"><span id="pinBar"></span></div>
+  </div>
+</section>
+
+<!-- ░░ 05 · MOTIVO FLOREALE ░░ -->
+<section class="motif" id="motif">
+  <div class="motif__bg" data-parallax="0.15" style="background-image:url('assets/img/pattern.jpg')"></div>
+  <div class="motif__inner">
+    <span class="sec-num light">04 — Segno</span>
+    <h2 class="reveal-up light">Erbario<br/>Mirafiore</h2>
+    <p class="reveal-up light">Sei motivi disegnati a mano e digitalizzati per ricamo, sbalzo e jacquard. Ogni pezzo porta un fiore diverso: è la sua firma, non un decoro.</p>
+    <ul class="motif__list">
+      <li class="reveal"><b>Rosa Canina</b><span>ricamo filo oro</span></li>
+      <li class="reveal"><b>Felce Bruma</b><span>sbalzo a caldo</span></li>
+      <li class="reveal"><b>Cardo Notturno</b><span>jacquard tono su tono</span></li>
+      <li class="reveal"><b>Ortensia Secca</b><span>stampa a pigmento</span></li>
+      <li class="reveal"><b>Bacca d'Agrifoglio</b><span>intarsio pelle</span></li>
+      <li class="reveal"><b>Magnolia d'Inverno</b><span>traforo laser</span></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ░░ 06 · IDENTITÀ / LOGO ░░ -->
+<section class="ident" id="identita">
+  <div class="sec-head">
+    <span class="sec-num">05 — Identità</span>
+    <h2 class="sec-title reveal-up">Il marchio</h2>
+    <p class="sec-lead reveal-up">Il monogramma <b>M</b> nasce da due steli che si incontrano: le aste terminano in petali, il punto centrale è il seme. Funziona inciso, ricamato, in foil e a 12&nbsp;px.</p>
+  </div>
+  <div class="ident__grid">
+    <div class="id-cell id-cell--mark reveal">
+      <svg class="logo-svg big" viewBox="0 0 120 100" aria-hidden="true">
+        <path d="M20 92 V30 C20 18 26 10 34 14 C42 18 46 28 60 58 C74 28 78 18 86 14 C94 10 100 18 100 30 V92" />
+        <path d="M20 30 C10 26 8 14 14 8 C22 12 24 22 20 30 Z" />
+        <path d="M100 30 C110 26 112 14 106 8 C98 12 96 22 100 30 Z" />
+        <circle cx="60" cy="58" r="3.2" />
+      </svg>
+      <span class="id-cell__tag">Monogramma / Pittogramma</span>
+    </div>
+    <div class="id-cell id-cell--lock reveal">
+      <div class="lockup"><span class="lockup__word">MIRAFIORE</span><span class="lockup__pay">Fiorire in Inverno</span></div>
+      <span class="id-cell__tag">Lockup verticale</span>
+    </div>
+    <div class="id-cell id-cell--type reveal">
+      <p class="type-a">Cormorant Garamond <i>— display</i></p>
+      <p class="type-b">Jost — testi, 300 / 400</p>
+      <p class="type-c">A a G g 26 / 27 ✿</p>
+      <span class="id-cell__tag">Sistema tipografico</span>
+    </div>
+    <div class="id-cell id-cell--img reveal"><img src="assets/img/logo-mark.jpg" alt="Applicazione del monogramma Mirafiore" /><span class="id-cell__tag">Applicazione a stampa</span></div>
+    <div class="id-cell id-cell--mock reveal"><img src="assets/img/mockup-shopper.jpg" alt="Mockup packaging Mirafiore" /><span class="id-cell__tag">Packaging · shopper, dust bag, box</span></div>
+  </div>
+</section>
+
+<!-- ░░ 07 · SPOT ░░ -->
+<section class="spot" id="spot">
+  <div class="spot__left">
+    <span class="sec-num light">06 — Spot</span>
+    <h2 class="reveal-up light">Film 30&Prime;<br/><em>“Fiorire in Inverno”</em></h2>
+    <div class="player reveal">
+      <button class="player__btn" id="playBtn" aria-label="Riproduci lo spot" data-cursor><span class="ico-play"></span></button>
+      <div class="player__wave" id="wave"></div>
+      <span class="player__time" id="playTime">Voce · 0:30</span>
+      <audio id="spotAudio" src="assets/audio/spot-mirafiore.mp3" preload="none"></audio>
+    </div>
+    <p class="spot__script light">
+      «Quando il giardino si spegne, noi fioriamo.<br/>
+      Pelle scolpita a mano. Petali ricamati nell'ombra.<br/>
+      Velluto che trattiene la luce di novembre.<br/>
+      <b>Mirafiore</b>, Autunno Inverno 2026/27.<br/>
+      Perché l'eleganza non aspetta la primavera.»
+    </p>
+  </div>
+  <div class="spot__board">
+    <figure class="sb reveal"><img src="assets/img/campaign-01.jpg" alt="Storyboard scena 1"/><figcaption><b>00:00 — 00:08</b> Giardino all'italiana nella nebbia. Passo lento, dolly laterale.</figcaption></figure>
+    <figure class="sb reveal"><img src="assets/img/hero.jpg" alt="Storyboard scena 2"/><figcaption><b>00:08 — 00:18</b> Macro sul ricamo: il fiore emerge dalla pelle. Luce radente.</figcaption></figure>
+    <figure class="sb reveal"><img src="assets/img/campaign-02.jpg" alt="Storyboard scena 3"/><figcaption><b>00:18 — 00:26</b> Passo su pietra bagnata, petali secchi. Suono: velluto + pioggia.</figcaption></figure>
+    <figure class="sb sb--end reveal"><div class="endcard"><svg class="logo-svg" viewBox="0 0 120 100"><path d="M20 92 V30 C20 18 26 10 34 14 C42 18 46 28 60 58 C74 28 78 18 86 14 C94 10 100 18 100 30 V92"/><path d="M20 30 C10 26 8 14 14 8 C22 12 24 22 20 30 Z"/><path d="M100 30 C110 26 112 14 106 8 C98 12 96 22 100 30 Z"/></svg><span>MIRAFIORE</span><i>Fiorire in Inverno</i></div><figcaption><b>00:26 — 00:30</b> End card su fondo Oxblood, monogramma in foil oro.</figcaption></figure>
+  </div>
+</section>
+
+<!-- ░░ 08 · SOCIAL ░░ -->
+<section class="social" id="social">
+  <div class="sec-head">
+    <span class="sec-num">07 — Campagna</span>
+    <h2 class="sec-title reveal-up">Piano social<br/><em>lancio · 6 settimane</em></h2>
+    <p class="sec-lead reveal-up">Tre format ricorrenti: <b>Teaser botanico</b> (reel 9:16), <b>Prodotto in still life</b> (feed 4:5), <b>Rito d'atelier</b> (storie). Tono: intimo, lento, tattile.</p>
+  </div>
+  <div class="social__grid">
+    <article class="post reveal">
+      <div class="post__top"><span class="dot"></span><b>mirafiore.official</b><i>Sponsorizzato</i></div>
+      <div class="post__img"><img src="assets/img/campaign-01.jpg" alt="Post campagna 1"/></div>
+      <div class="post__body"><b>mirafiore.official</b> Il giardino si spegne. Noi fioriamo. ✿<br/><span>AW26/27 · #FiorireInInverno #Mirafiore #OxbloodBloom</span></div>
+    </article>
+    <article class="post reveal">
+      <div class="post__top"><span class="dot"></span><b>mirafiore.official</b><i>Feed 4:5</i></div>
+      <div class="post__img"><img src="assets/img/bag-01.jpg" alt="Post campagna 2"/></div>
+      <div class="post__body"><b>mirafiore.official</b> Fiorenza. 42 ore, un solo cardo ricamato a mano.<br/><span>#PelleFiorita #MadeInItaly #Erbario</span></div>
+    </article>
+    <article class="story reveal">
+      <div class="story__frame">
+        <img src="assets/img/campaign-02.jpg" alt="Storia campagna"/>
+        <div class="story__bars"><i class="on"></i><i></i><i></i></div>
+        <div class="story__txt"><span>Capitolo 03</span><b>Rosalba</b><p>Velluto Oxblood, filo oro.</p><em>Scorri verso l'alto ↑</em></div>
+      </div>
+    </article>
+  </div>
+  <div class="kpi">
+    <div class="kpi__i reveal"><b data-count="6">0</b><span>settimane di rollout</span></div>
+    <div class="kpi__i reveal"><b data-count="24">0</b><span>asset per canale</span></div>
+    <div class="kpi__i reveal"><b data-count="3">0</b><span>format ricorrenti</span></div>
+    <div class="kpi__i reveal"><b data-count="12">0</b><span>creator selezionati</span></div>
+  </div>
+</section>
+
+<!-- ░░ 09 · TREND ░░ -->
+<section class="trend" id="trend">
+  <span class="sec-num">08 — Direzione moda 2026/27</span>
+  <div class="trend__rows">
+    <div class="tr reveal"><b>Quiet Opulence</b><p>Il lusso silenzioso si riscalda: nessun logo, ma materia riconoscibile a un metro di distanza.</p></div>
+    <div class="tr reveal"><b>Dark Botanicals</b><p>Il floreale abbandona il pastello primaverile e diventa notturno, tono su tono, quasi invisibile.</p></div>
+    <div class="tr reveal"><b>Sculpted Hardware</b><p>Tacchi e fibbie come piccole architetture in ottone brunito, mai lucido.</p></div>
+    <div class="tr reveal"><b>Tactile Velvet</b><p>Velluto di seta e camoscio strutturato: la stagione si giudica con le dita.</p></div>
+    <div class="tr reveal"><b>Slow Ownership</b><p>Restauro, ri-ricamo e passaporto digitale del prodotto come parte dell'offerta.</p></div>
+  </div>
+</section>
+
+<!-- ░░ 10 · CTA / FOOTER ░░ -->
+<footer class="foot" id="contatti">
+  <div class="foot__big"><span class="line"><span>Fiorire</span></span><span class="line"><span>in Inverno</span></span></div>
+  <form class="foot__form" onsubmit="event.preventDefault();this.classList.add('done');">
+    <input type="email" required placeholder="La tua email" aria-label="Email" />
+    <button type="submit" data-cursor><span>Ricevi il lookbook AW26/27</span></button>
+    <p class="foot__ok">Grazie. Il lookbook è in arrivo. ✿</p>
+  </form>
+  <div class="foot__cols">
+    <div><b>Maison</b><a href="#manifesto">Storia</a><a href="#motif">Erbario</a><a href="#identita">Identità</a></div>
+    <div><b>Collezione</b><a href="#collezione">Borse</a><a href="#collezione">Calzature</a><a href="#palette">Palette</a></div>
+    <div><b>Campagna</b><a href="#spot">Spot 30″</a><a href="#social">Social</a><a href="#trend">Trend</a></div>
+    <div><b>Contatti</b><a href="mailto:atelier@mirafiore.it">atelier@mirafiore.it</a><a href="#">Reggio Emilia, IT</a><a href="#">Instagram</a></div>
+  </div>
+  <div class="foot__base"><span>© 2026 Mirafiore S.r.l. — Progetto di brand identity.</span><span>Autunno / Inverno 2026—2027</span></div>
+</footer>
+
+</main>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
